@@ -1,0 +1,42 @@
+/* Page Wrapper + Menu */
+#page-wrapper {
+  -moz-transition: opacity 0.5s ease;
+  -webkit-transition: opacity 0.5s ease;
+  -ms-transition: opacity 0.5s ease;
+  transition: opacity 0.5s ease;
+  opacity: 1;
+  /* padding-top: 3em; */
+}
+
+#page-wrapper {
+  background-image: linear-gradient(
+      to top,
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url("../../../images/coffee.png");
+  background-attachment: fixed;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#page-wrapper:before {
+  background: rgba(0, 0, 0, 0.5);
+  content: "";
+  display: block;
+  display: none;
+  height: 100%;
+  left: 0;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 10001;
+}
+
+@media screen and (max-width: 980px) {
+  #page-wrapper {
+    background: none;
+    padding-top: 0;
+  }
+}
