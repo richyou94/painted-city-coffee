@@ -1,20 +1,22 @@
 {
   "files": {
-    "main.css": "/static/css/main.c5c50858.css",
-    "main.js": "/static/js/main.54c85b48.js",
+    "main.css": "/static/css/main.cecc7536.css",
+    "main.js": "/static/js/main.e5097792.js",
     "static/media/coffee.png": "/static/media/coffee.a3f538d482a79d89b357.png",
     "static/media/coffee-cart.jpg": "/static/media/coffee-cart.8db4dfdeb72cc556c70b.jpg",
     "static/media/team.png": "/static/media/team.ea47dd6181e868b85bb0.png",
     "static/media/kids-coffee.jpeg": "/static/media/kids-coffee.3328d7a95aa4751a77c2.jpeg",
+    "static/media/FTY-SKORZHEN-NCV.otf": "/static/media/FTY-SKORZHEN-NCV.2da310ab27b54609c04f.otf",
+    "static/media/BebasNeue-Regular.ttf": "/static/media/BebasNeue-Regular.c501e16fa3f0781f9d73.ttf",
     "index.html": "/index.html",
     "static/media/arrow.svg": "/static/media/arrow.0ad8a4fa054ee29ae69c.svg",
     "static/media/bars.svg": "/static/media/bars.b1607b1fd7bd3f34c6b3.svg",
     "static/media/close.svg": "/static/media/close.aafa9436910140963a4c.svg",
-    "main.c5c50858.css.map": "/static/css/main.c5c50858.css.map",
-    "main.54c85b48.js.map": "/static/js/main.54c85b48.js.map"
+    "main.cecc7536.css.map": "/static/css/main.cecc7536.css.map",
+    "main.e5097792.js.map": "/static/js/main.e5097792.js.map"
   },
   "entrypoints": [
-    "static/css/main.c5c50858.css",
-    "static/js/main.54c85b48.js"
+    "static/css/main.cecc7536.css",
+    "static/js/main.e5097792.js"
   ]
 }
