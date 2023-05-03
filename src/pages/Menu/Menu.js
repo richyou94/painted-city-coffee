@@ -7,6 +7,7 @@ const Menu = () => {
     <>
       <Header />
       <Main>
+        <div className="background-photo-2"></div>
         <header>
           <h2>current menu</h2>
         </header>

@@ -7,6 +7,7 @@ const Story = () => {
     <>
       <Header />
       <Main>
+        <div className="background-photo-2"></div>
         <header>
           <h2>Our Story</h2>
         </header>

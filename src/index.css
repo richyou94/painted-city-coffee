@@ -3502,3 +3502,10 @@ ul.actions.fit.stacked {
     padding: 3em 2em 1em 2em;
   }
 }
+
+#main section.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 55vh;
+}

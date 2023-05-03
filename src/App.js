@@ -18,16 +18,15 @@ import Quote from "./pages/Quote/Quote";
 function App() {
   return (
     <BrowserRouter>
-      <Wrapper>
-        <Routes>
-          <Route exact path="/" element={<Landing />} />
-          <Route exact path="/about-us" element={<AboutUs />} />
-          <Route exact path="/our-story" element={<Story />} />
-          <Route exact path="/current-menu" element={<Menu />} />
-          <Route exact path="/get-a-quote" element={<Quote />} />
-        </Routes>
-        <Footer />
-      </Wrapper>
+      {/* <Wrapper /> */}
+      <Routes>
+        <Route exact path="/" element={<Landing />} />
+        <Route exact path="/about-us" element={<AboutUs />} />
+        <Route exact path="/our-story" element={<Story />} />
+        <Route exact path="/current-menu" element={<Menu />} />
+        <Route exact path="/get-a-quote" element={<Quote />} />
+      </Routes>
+      <Footer />
     </BrowserRouter>
   );
 }

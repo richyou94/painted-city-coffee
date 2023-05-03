@@ -2,7 +2,7 @@
 
 #main > header {
   padding: 12em 0 10em 0;
-  background-image: -moz-linear-gradient(
+  /* background-image: -moz-linear-gradient(
       top,
       rgba(0, 0, 0, 0.5),
       rgba(0, 0, 0, 0.5)
@@ -21,7 +21,7 @@
     ),
     url("../../../images/coffee.png");
   background-image: linear-gradient(top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url("../../../images/coffee.png");
+    url("../../../images/coffee.png"); */
   background-attachment: scroll;
   background-position: center center;
   background-repeat: no-repeat;
@@ -60,18 +60,18 @@
 @media screen and (max-width: 980px) {
   #main > header {
     padding: 10em 3em 8em 3em;
-    background-image: linear-gradient(
+    /* background-image: linear-gradient(
         to top,
         rgba(0, 0, 0, 0.5),
         rgba(0, 0, 0, 0.5)
       ),
-      url("../../../images/coffee.png");
+      url("../../../images/coffee.png"); */
   }
 }
 
 @media screen and (max-width: 736px) {
   #main > header {
-    padding: 5em 3em 3em 3em;
+    /* padding: 5em 3em 3em 3em; */
   }
 
   #main > header h2 {

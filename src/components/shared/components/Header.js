@@ -12,9 +12,9 @@ import {
 } from "react-scroll";
 import Navbar from "../../Navbar/Navbar";
 
-const Header = () => {
+const Header = (props) => {
   return (
-    <header id="header">
+    <header id="header" className={props.animate ? 'fade-in' : 'header-dark'}>
       <h1>
         <Link
           activeClass="activeScroll"

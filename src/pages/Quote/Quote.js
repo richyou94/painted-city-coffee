@@ -7,6 +7,7 @@ const Quote = () => {
     <>
       <Header />
       <Main>
+        <div className="background-photo-2"></div>
         <header>
           <h2>get a quote</h2>
         </header>

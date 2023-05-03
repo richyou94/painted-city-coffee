@@ -15,7 +15,7 @@
   z-index: 10000;
 }
 .display-none {
-  position:fixed;
+  position: fixed;
 }
 #header h1 {
   -moz-transition: opacity 0.2s ease;
@@ -109,11 +109,14 @@
 }
 
 #header:has(.activeScroll) {
-  background: #2e3842;
+  background: #182322;
+}
+
+#header.header-dark {
+  background: #182322;
 }
 
 #header.alt h1 {
   pointer-events: none;
   opacity: 0;
 }
-

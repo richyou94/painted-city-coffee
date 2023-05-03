@@ -2,12 +2,13 @@ import React from "react";
 
 import Main from "../../components/shared/layouts/Main";
 import Header from "../../components/shared/components/Header";
-
+ 
 const AboutUs = () => {
   return (
     <>
       <Header />
       <Main>
+        <div className="background-photo-2"></div>
         <header>
           <h2>About Us</h2>
         </header>
