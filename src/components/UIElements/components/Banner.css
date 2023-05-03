@@ -211,13 +211,38 @@
 
   #banner h2 {
     font-size: 1.25em;
-  }
-
-  #banner br {
-    display: none;
+    padding: 0;
   }
 
   #banner .more {
     display: none;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  #banner {
+    padding: 7em 1.5em 5em 1.5em;
+  }
+}
+
+.new-font {
+  font-size: 5rem !important;
+}
+
+@media screen and (max-width: 736px) {
+  .new-font {
+    font-size: 3rem !important;
+  }
+}
+
+@media screen and (max-width: 451px) {
+  .new-font {
+    font-size: 2rem !important;
+  }
+}
+
+@media screen and (max-width: 342px) {
+  .new-font {
+    /* font-size: 1.2rem !important; */
   }
 }

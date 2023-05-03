@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,600,600italic,800,800italic");
+/* @import url("https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,600,600italic,800,800italic"); */
 
 html,
 body,
@@ -170,7 +170,17 @@ html {
 }
 
 body {
-  background: #2e3842;
+  background: #182322;
+}
+
+@font-face {
+  font-family: skorzhen;
+  src: url('./fonts/FTY-SKORZHEN-NCV.otf')
+}
+
+@font-face {
+  font-family: bebasneue;
+  src: url('./fonts/BebasNeue-Regular.ttf')
 }
 
 body,
@@ -179,6 +189,7 @@ select,
 textarea {
   color: #fff;
   font-family: "Open Sans", Helvetica, sans-serif;
+  /* font-family: skorzhen; */
   font-size: 15pt;
   font-weight: 400;
   letter-spacing: 0.075em;

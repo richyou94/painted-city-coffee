@@ -6,7 +6,7 @@
   -ms-transition: background-color 0.2s ease;
   transition: background-color 0.2s ease;
   background: transparent;
-  height: 3em;
+  height: 5em;
   left: 0;
   line-height: 3em;
   position: fixed;
@@ -14,6 +14,18 @@
   width: 100%;
   z-index: 10000;
 }
+
+#nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.flex-center {
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
+}
+
 .display-none {
   position: fixed;
 }
@@ -27,6 +39,8 @@
   line-height: inherit;
   position: absolute;
   top: 0;
+  padding: 0 1rem;
+  margin: 0;
 }
 
 #header h1 a {
@@ -38,7 +52,10 @@
 
 @media screen and (max-width: 736px) {
   #header h1 a {
-    font-size: 0.8em;
+    font-size: 1.2em;
+  }
+  #header h1 {
+    padding: 0;
   }
 }
 
@@ -119,4 +136,19 @@
 #header.alt h1 {
   pointer-events: none;
   opacity: 0;
+}
+
+.font-skorzhen {
+  font-family: skorzhen;
+  letter-spacing: 3px;
+  /* font-size: 1.5rem; */
+}
+
+.font-bebasneue {
+  font-family: bebasneue;
+  /* font-size: 1.5rem; */
+}
+
+.flex-center.font-skorzhen {
+  font-size: 2rem;
 }

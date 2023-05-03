@@ -25,7 +25,7 @@ const Header = (props) => {
           ignoreCancelEvents={true}
           duration={500}
         />
-        <a href="/">painted city coffee</a>
+        <a className="flex-center font-skorzhen" href="/">painted city coffee</a>
       </h1>
       <Navbar />
     </header>

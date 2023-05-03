@@ -22,7 +22,7 @@ const Navbar = () => {
         <NavLinks />
       </SideDrawer>
 
-      <nav id="nav">
+      <nav id="nav" className="">
         <ul>
           <li className="special">
             {!drawerIsOpen && (
