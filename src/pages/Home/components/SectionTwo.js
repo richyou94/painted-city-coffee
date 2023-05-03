@@ -1,7 +1,7 @@
 import React from "react";
 import Image1 from '../../../images/coffee-cart.jpg'
-import Image2 from '../../../images/king-table.jpg'
-import Image3 from '../../../images/pic03.jpg'
+import Image2 from '../../../images/team.png'
+import Image3 from '../../../images/kids-coffee.jpeg'
 
 const SectionTwo = () => {
   return (
@@ -12,9 +12,7 @@ const SectionTwo = () => {
         </div>
         <div className="content">
           <h2>
-            Magna primis lobortis
-            <br />
-            sed ullamcorper
+            #Compassion
           </h2>
           <p>
             Aliquam ut ex ut augue consectetur interdum. Donec hendrerit
@@ -28,9 +26,7 @@ const SectionTwo = () => {
         </div>
         <div className="content">
           <h2>
-            Tortor dolore feugiat
-            <br />
-            elementum magna
+            #Creativity
           </h2>
           <p>
             Aliquam ut ex ut augue consectetur interdum. Donec hendrerit
@@ -44,9 +40,7 @@ const SectionTwo = () => {
         </div>
         <div className="content">
           <h2>
-            Augue eleifend aliquet
-            <br />
-            sed condimentum
+            #Commitment
           </h2>
           <p>
             Aliquam ut ex ut augue consectetur interdum. Donec hendrerit

@@ -15,31 +15,17 @@ const AboutUs = () => {
           <div className="inner">
             <h3>Painted City Coffee</h3>
             <p>
-              Morbi mattis mi consectetur tortor elementum, varius pellentesque
-              velit convallis. Aenean tincidunt lectus auctor mauris maximus, ac
-              scelerisque ipsum tempor. Duis vulputate ex et ex tincidunt, quis
-              lacinia velit aliquet. Duis non efficitur nisi, id malesuada
-              justo. Maecenas sagittis felis ac sagittis semper. Curabitur purus
-              leo, tempus sed finibus eget, fringilla quis risus. Maecenas et
-              lorem quis sem varius sagittis et a est. Maecenas iaculis iaculis
-              sem. Donec vel dolor at arcu tincidunt bibendum. Interdum et
-              malesuada fames ac ante ipsum primis in faucibus. Fusce ut aliquet
-              justo. Donec id neque ipsum. Integer eget ultricies odio. Nam vel
-              ex a orci fringilla tincidunt. Aliquam eleifend ligula non velit
-              accumsan cursus. Etiam ut gravida sapien.
+              Painted City Coffee brings an experience forward coffee brand in
+              the Orange County market with an emphasis on service excellence,
+              inspiring environment, and quality standards of products that are
+              distinct in expression and form.
             </p>
 
             <p>
-              Vestibulum ultrices risus velit, sit amet blandit massa auctor sit
-              amet. Sed eu lectus sem. Phasellus in odio at ipsum porttitor
-              mollis id vel diam. Praesent sit amet posuere risus, eu faucibus
-              lectus. Vivamus ex ligula, tempus pulvinar ipsum in, auctor porta
-              quam. Proin nec dui cursus, posuere dui eget interdum. Fusce
-              lectus magna, sagittis at facilisis vitae, pellentesque at etiam.
-              Quisque posuere leo quis sem commodo, vel scelerisque nisi
-              scelerisque. Suspendisse id quam vel tortor tincidunt suscipit.
-              Nullam auctor orci eu dolor consectetur, interdum ullamcorper ante
-              tincidunt. Mauris felis nec felis elementum varius.
+              In December 2022, Painted City Coffee was birthed inside a garage
+              with the hope of being partnered with a homeless ministry serving
+              coffee with the plan of bringing hope and dreams to underserved
+              communities.
             </p>
           </div>
         </section>

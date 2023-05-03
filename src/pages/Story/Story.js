@@ -12,33 +12,47 @@ const Story = () => {
         </header>
         <section class="wrapper style5">
           <div class="inner">
-            <h3>how we started</h3>
+            <h3>origin story</h3>
             <p>
-              Morbi mattis mi consectetur tortor elementum, varius pellentesque
-              velit convallis. Aenean tincidunt lectus auctor mauris maximus, ac
-              scelerisque ipsum tempor. Duis vulputate ex et ex tincidunt, quis
-              lacinia velit aliquet. Duis non efficitur nisi, id malesuada
-              justo. Maecenas sagittis felis ac sagittis semper. Curabitur purus
-              leo, tempus sed finibus eget, fringilla quis risus. Maecenas et
-              lorem quis sem varius sagittis et a est. Maecenas iaculis iaculis
-              sem. Donec vel dolor at arcu tincidunt bibendum. Interdum et
-              malesuada fames ac ante ipsum primis in faucibus. Fusce ut aliquet
-              justo. Donec id neque ipsum. Integer eget ultricies odio. Nam vel
-              ex a orci fringilla tincidunt. Aliquam eleifend ligula non velit
-              accumsan cursus. Etiam ut gravida sapien.
+              Painted City Coffee was launched in December 2022 as a coffee
+              catering service.
             </p>
 
             <p>
-              Vestibulum ultrices risus velit, sit amet blandit massa auctor sit
-              amet. Sed eu lectus sem. Phasellus in odio at ipsum porttitor
-              mollis id vel diam. Praesent sit amet posuere risus, eu faucibus
-              lectus. Vivamus ex ligula, tempus pulvinar ipsum in, auctor porta
-              quam. Proin nec dui cursus, posuere dui eget interdum. Fusce
-              lectus magna, sagittis at facilisis vitae, pellentesque at etiam.
-              Quisque posuere leo quis sem commodo, vel scelerisque nisi
-              scelerisque. Suspendisse id quam vel tortor tincidunt suscipit.
-              Nullam auctor orci eu dolor consectetur, interdum ullamcorper ante
-              tincidunt. Mauris felis nec felis elementum varius.
+              In the years prior, PCC founder, Calvin Yoo, was introduced to
+              specialty coffee business in 2018 when he opened his first shop in
+              South Orange County. After establishing a community-building
+              culture and acquiring experience as an owner-operator, he
+              identified an opportunity to bring this created experience to his
+              mobile coffee cart number one.
+            </p>
+            <p>
+              Painted City Coffee has an opportunity to respond to the
+              increasing demand for pop-up coffee cart at various events and
+              gatherings with an espresso bar concept rooted in guest experience
+              and brand-forward thinking. Equipped with visionary leadership,
+              highly talented baristas, experienced content creators, and
+              cohesive operational systems, Painted City Coffee is poised to
+              carve out a significant portion of the growing coffee catering
+              market in Orange County. Exceptional coffee products and service
+              excellence within a positive and inspiring environment will
+              provide the ultimate coffee experience for all guests of the
+              event.
+            </p>
+            <p>
+              The menu will consist of our signature cold brew and cold brew
+              latte, espresso-based beverages, drip coffee, and pastries brought
+              in from a third-party vendor; Painted City Coffee will rely on the
+              fundamental principle of excellence in mobility. Providing a small
+              yet shining presence will invite guests to view the cart as the
+              go-to catering service for helping to elevate the event experience
+              with creativity and festivity.
+            </p>
+            <p>
+              Thorough brand development will complete the experience for each
+              guest who encounters the space. Modern design thinking, instinct
+              rooted in years of experience, and clear vision will characterize
+              all efforts to develop brand recognition.
             </p>
           </div>
         </section>

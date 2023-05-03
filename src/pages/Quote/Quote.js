@@ -72,7 +72,6 @@ const Quote = () => {
                         type="radio"
                         id="event-celebration"
                         name="type-of-event"
-                        checked
                       />
                       <label for="event-celebration">Celebration</label>
                     </div>
@@ -82,7 +81,7 @@ const Quote = () => {
                         id="event-church"
                         name="type-of-event"
                       />
-                      <label for="event-church">Church Event</label>
+                      <label for="event-church">Church Gathering</label>
                     </div>
                     <div class="col-4 col-12-small">
                       <input
@@ -127,7 +126,6 @@ const Quote = () => {
                         type="radio"
                         id="demo-priority-low"
                         name="number-of-guest"
-                        checked
                       />
                       <label for="demo-priority-low">50 - 100 guests</label>
                     </div>
@@ -154,12 +152,7 @@ const Quote = () => {
                   <h5>duration</h5>
                   <div class="row">
                     <div class="col-4 col-12-small">
-                      <input
-                        type="radio"
-                        id="duration-2"
-                        name="duration"
-                        checked
-                      />
+                      <input type="radio" id="duration-2" name="duration" />
                       <label for="duration-2">2 hrs</label>
                     </div>
                     <div class="col-4 col-12-small">
@@ -180,7 +173,7 @@ const Quote = () => {
                     name="location"
                     id="location"
                     value=""
-                    placeholder="e.g. Backyard / Church / Picnic Area / Wedding Venue"
+                    placeholder="Specify"
                     required
                   />
                 </div>
