@@ -21,7 +21,6 @@ const Quote = () => {
                     type="text"
                     name="first-name"
                     id="first-name"
-                    value=""
                     placeholder="First Name"
                     required
                   />
@@ -31,7 +30,6 @@ const Quote = () => {
                     type="text"
                     name="last-name"
                     id="last-name"
-                    value=""
                     placeholder="Last Name"
                     required
                   />
@@ -41,7 +39,6 @@ const Quote = () => {
                     type="email"
                     name="demo-email"
                     id="demo-email"
-                    value=""
                     placeholder="Email"
                     required
                   />
@@ -60,7 +57,7 @@ const Quote = () => {
                   <h5>Date of Event</h5>
                   <div class="row">
                     <div class="col-12-small">
-                      <input type="date" name="date" id="date" />
+                      <input type="date" name="date" id="date" required />
                     </div>
                   </div>
                 </div>
@@ -173,7 +170,6 @@ const Quote = () => {
                     type="text"
                     name="location"
                     id="location"
-                    value=""
                     placeholder="Specify"
                     required
                   />

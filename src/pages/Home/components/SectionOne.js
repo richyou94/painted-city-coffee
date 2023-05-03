@@ -20,20 +20,20 @@ const SectionOne = () => {
           <li>
             <span className="icon major style1">
               <BsPersonHeart />
-              <span className="label">Lorem</span>
             </span>
+            <span className="hashtag-label">#Compassion</span>
           </li>
           <li>
             <span className="icon major style1">
               <SiCoffeescript />
-              <span className="label">Ipsum</span>
             </span>
+            <span className="hashtag-label">#Creativity</span>
           </li>
           <li>
             <span className="icon major style1">
               <TbHeartHandshake />
-              <span className="label">Lorem</span>
             </span>
+            <span className="hashtag-label">#Commitment</span>
           </li>
         </ul>
       </div>
