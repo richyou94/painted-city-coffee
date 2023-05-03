@@ -7,28 +7,34 @@ import CTA from "./components/CTA";
 import Header from "../../components/shared/components/Header";
 import { Element } from "react-scroll";
 import { gsap } from "gsap";
-import { CSSRulePlugin } from "gsap/all";
 
 const Landing = () => {
   useEffect(() => {
     setTimeout(() => {
-      console.log("yet..?");
+      // console.log("yet..?");
       reveal();
-    }, 2);
+    }, 100);
   });
 
   async function reveal() {
+    // gsap.registerPlugin(CSSRulePlugin);
+    // const rule1 = CSSRulePlugin.getRule(".animateTitle::before");
+    // const rule2 = CSSRulePlugin.getRule(".animateTitle::after");
     const t1 = gsap.timeline({});
-    const rule1 = CSSRulePlugin.getRule(".animate-title:before");
-    const rule2 = CSSRulePlugin.getRule(".animate-title:after");
     await t1
-      .to([rule1, rule2], {
-        width: "100%",
-        ease: "ease-in",
-        duration: 0.5,
-        delay: 0.2,
-      })
-      .to(".animate-title", {
+      // .to([rule1, rule2], {
+      //   width: "100%",
+      //   ease: "ease-in",
+      //   duration: 0.5,
+      //   delay: 0.2,
+      // })
+      // .to('.animate-line', {
+      //   width: "100%",
+      //   ease: "ease-in",
+      //   duration: 0.5,
+      //   delay: 0.2,
+      // })
+      .to(".animateTitle", {
         scale: "1",
         opacity: "1",
         ease: "ease-out",

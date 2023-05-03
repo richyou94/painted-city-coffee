@@ -1,4 +1,5 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
 
 const CTA = () => {
   return (
@@ -13,14 +14,13 @@ const CTA = () => {
         </header>
         <ul className="actions stacked">
           <li>
-            <a href="#" className="button fit primary">
+            <NavLink to="/get-a-quote" className="button fit primary">
               Get a Quote
-            </a>
+            </NavLink>
           </li>
           <li>
-            <a href="#" className="button fit">
-              Current Menu
-            </a>
+            <NavLink to="/current-menu" className="button fit">Current menu</NavLink>
+            
           </li>
         </ul>
       </div>

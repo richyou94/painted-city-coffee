@@ -395,8 +395,8 @@ label {
   margin: 0 0 1em 0;
 }
 input[type="date"] {
-  padding: .5rem;
-  color: #182322
+  padding: 0.5rem;
+  color: #182322;
 }
 input[type="text"],
 input[type="tel"],
@@ -2273,6 +2273,9 @@ header.major p {
   justify-content: center;
   align-items: center;
 }
+.label {
+  display: none;
+}
 .icons.major li {
   position: relative;
 }
@@ -2346,13 +2349,6 @@ header.major p {
 .icons li:hover .hashtag-label {
   opacity: 1;
 }
-
-/* .icon svg:hover {
-  color: #cde49a;
-} */
-/* .icon svg:hover .hashtag-label {
-  opacity: 1;
-} */
 
 .hashtag-label {
   position: absolute;
